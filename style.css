@@ -11,3 +11,25 @@ body {
   width: 30%;
   height: 100vh;
 }
+
+.logo {
+  width: 100%;
+  height: 7vw;
+  position: relative;
+  top: 1.5vw;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: white;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 4vw;
+}
+
+.logo > img {
+  height: 8vw;
+}
