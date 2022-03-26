@@ -1,3 +1,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.left {
+  background-image: url("dog-bg.jpg");
+  background-size: cover;
+  background-position: 57%, center;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 100vh;
 }
