@@ -76,7 +76,22 @@ label {
 }
 
 label {
-  margin-bottom: 6px;
+  margin-bottom: 3px;
+  font-weight: bold;
+  color: rgb(46, 46, 46);
+}
+
+input {
+  border: rgb(182, 168, 168) solid 1px;
+  height: 1.75em;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none !important;
+  border: #0a122a 1px solid;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
 }
 
 form {
