@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Sign up!</title>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;800&display=swap");
     </style>
   </head>
   <body>
@@ -15,43 +15,56 @@
       <div class="left">
         <div class="logo">
           <img src="Sign-up-form-icon.png" alt="Kaori Icon" />
-          <h1>KAORI</h1>
+          <h2 class="display">KAORI</h2>
         </div>
       </div>
 
       <div class="right">
         <div class="header">
-          <h4>
+          <h1>Sign Up Form</h1>
+          <h3>
             This is not a real online service! You know you need something like
             this in your life to help you realize your deepest dreams. Sign up
             <i>now</i> to get started.
-          </h4>
-          <h4>You <i>know</i> you want to.</h4>
+          </h3>
+          <h3>You <i>know</i> you want to.</h3>
         </div>
 
-        <!-- <div class="form">
-        <form action="">
-          <h4>Let's do this!</h4>
-          <label for="fName">FIRST NAME</label>
-          <input type="text" name="fName" id="fName" />
+        <div class="form">
+          <h2>Let's do this!</h2>
+          <form action="">
+            <div class="formContainer">
+              <div>
+                <label for="fName">FIRST NAME</label>
+                <input type="text" name="fName" id="fName" />
+              </div>
+              <div>
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" />
+              </div>
+              <div>
+                <label for="pwd">PASSWORD</label>
+                <input type="password" name="pwd" id="pwd" />
+              </div>
+            </div>
+            <div class="formContainer">
+              <div>
+                <label for="lName">LAST NAME</label>
+                <input type="text" name="lName" id="lName" />
+              </div>
+              <div>
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" name="phone" id="phone" />
+              </div>
+              <div>
+                <label for="cPwd">CONFIRM PASSWORD</label>
+                <input type="password" name="cPwd" id="cPwd" />
+              </div>
+            </div>
+          </form>
+        </div>
 
-          <label for="lName">LAST NAME</label>
-          <input type="text" name="lName" id="lName" />
-
-          <label for="email">EMAIL</label>
-          <input type="email" name="email" id="email" />
-
-          <label for="phone">PHONE NUMBER</label>
-          <input type="tel" name="phone" id="phone" />
-
-          <label for="pwd">PASSWORD</label>
-          <input type="password" name="pwd" id="pwd" />
-
-          <label for="cPwd">CONFIRM PASSWORD</label>
-          <input type="password" name="cPwd" id="cPwd" />
-        </form>
-      </div>
-
+        <!-- 
       <div class="account">
         <button>Create Account</button>
         <p>Already have an account? <a href="http://google.com">Log in</a></p>

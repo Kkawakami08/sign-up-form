@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Manrope", sans-serif;
   margin: 0;
 }
 
@@ -30,10 +30,64 @@ body {
 }
 
 h1 {
-  font-family: "Manrope", sans-serif;
+  font-size: 2em;
+  color: #ffe3d6;
+}
+
+.display {
   font-size: 4vw;
 }
 
 .logo > img {
   height: 8vw;
+}
+
+.right {
+  background-color: #0a122a;
+  height: 100vh;
+  width: 70%;
+
+  padding-top: 100px;
+  color: white;
+}
+
+.header {
+  width: 80%;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.form {
+  background-color: white;
+  color: black;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-weight: 200;
+  font-size: 0.85em;
+  box-shadow: 10px 5px 5px 5px;
+  width: 100%;
+  height: 260px;
+}
+
+input,
+label {
+  display: block;
+}
+
+label {
+  margin-bottom: 6px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding-top: 7px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
